@@ -1,0 +1,29 @@
+/* * { margin: 0; padding: 0; box-sizing: border-box; }
+body { overflow: hidden; } */
+
+html, body {margin: 0; height: 100%; overflow: hidden; background-color: black};
+
+
+.img {
+  border: (white, 2px, solid);
+}
+
+#tempo {
+  color: white;
+  position: absolute;
+  padding-left: 12%;
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  bottom: 130px;
+  font-weight: bold;
+}
+
+/* .instru{
+  color: white;
+  float: left;
+  text-align: center;
+  margin-left: 5%;
+  margin-top: 10%;
+  /* font-family: "game"; */
+  }
+   */

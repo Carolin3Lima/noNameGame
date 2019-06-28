@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <link rel="stylesheet" type="text/css" href="./jogo.css">
+		<meta charset = "UTF-8"/>
+    <title>jogo</title>
+	</head>
+<body onload="start();">
+  <!-- <div class = 'instru'>
+  <h3>INSTRUÇÕES</h3>
+<p>Chegue ao item indicado antes<br> de terminar o tempo.<br>
+  Mova os personagens pelas<br> setas do teclado.<br>
+  Alterne os movimentos dos <br> personagens pelas teclas 1 e 2.<br><br>
+  Bom jogo!  
+</p>
+</div> -->
+<div id="tempo" class="time"></div>
+
+    <embed src="./gamsong.mp3" autostart="true" loop="true"
+width="2" height="0">
+</embed>
+
+<bgsound src="./gamsong.mp3" loop="infinite">
+
+
+  <canvas id="canvas" width="2000" height="800">
+  Se você visualizar esse texto, seu browser não suporta a tag canvas.
+  </canvas>
+  <script src="./jogo.js">
+  </script>
+  
+</body>
+</html>	
